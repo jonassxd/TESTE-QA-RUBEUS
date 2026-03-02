@@ -106,5 +106,6 @@ Durante a análise da página de certificação [https://qualidade.apprbs.com.br
 
 - Nem todos os cenários foram automatizados porque alguns são triviais ou de usabilidade (como textos incorretos ou layout responsivo).  
 - Os testes automatizados foram focados em **clicar em botões e links que deveriam redirecionar ou abrir modal**, evidenciando o comportamento quebrado da aplicação.  
-- Testes manuais foram registrados para documentar todos os problemas encontrados, garantindo **completude na análise QA**.
+- Testes manuais foram registrados para documentar todos os problemas encontrados.
+
 
