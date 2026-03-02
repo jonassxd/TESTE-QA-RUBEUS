@@ -69,4 +69,3 @@ Todos os cenários automatizados têm falha proposital para evidenciar bugs da a
 Estrutura pensada para facilitar manutenção e adição de novos testes futuramente.
 
 
----
