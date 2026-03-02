@@ -69,3 +69,42 @@ Todos os cenários automatizados têm falha proposital para evidenciar bugs da a
 Estrutura pensada para facilitar manutenção e adição de novos testes futuramente.
 
 
+## Observações e Testes Manuais
+
+Durante a análise da página de certificação [https://qualidade.apprbs.com.br/certificacao](https://qualidade.apprbs.com.br/certificacao), foram identificados os seguintes cenários:
+
+### Cenários avaliados
+
+1. **Pra quem é essa certificação?**
+   - Botão "Saiba mais" não funciona.
+   - Impacto: usuário não consegue acessar detalhes da certificação.
+   - Status: identificado manualmente, automatizado para evidenciar bug.
+
+2. **Tela de Cadastro**
+   - Mensagem "É necessário informar a base legal" impede avanço.
+   - Falta confirmação por e-mail após cadastro.
+   - Status: identificado manualmente, parcialmente automatizado (somente clique nos campos críticos).
+
+3. **Outros Cursos**
+   - Botões "Saiba mais" não funcionam.
+   - Erros de texto: "Saiba" incompleto e "Salba mais".
+   - Status: automatizado (botões clicados, falha proposital), erros de texto avaliados manualmente.
+
+4. **Final da página – Quero me certificar**
+   - Redirecionamento incorreto para google.com.
+   - Status: automatizado para evidenciar bug.
+
+5. **Imagem do YouTube**
+   - Redireciona incorretamente para TikTok.
+   - Status: automatizado para evidenciar bug.
+
+6. **Responsividade da página**
+   - Botões desalinhados e elementos sobrepostos em telas menores.
+   - Status: avaliado manualmente, não automatizado (teste visual/UX).
+
+### Justificativa
+
+- Nem todos os cenários foram automatizados porque alguns são triviais ou de usabilidade (como textos incorretos ou layout responsivo).  
+- Os testes automatizados foram focados em **clicar em botões e links que deveriam redirecionar ou abrir modal**, evidenciando o comportamento quebrado da aplicação.  
+- Testes manuais foram registrados para documentar todos os problemas encontrados, garantindo **completude na análise QA**.
+
