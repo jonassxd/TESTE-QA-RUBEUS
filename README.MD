@@ -70,12 +70,3 @@ Estrutura pensada para facilitar manutenção e adição de novos testes futuram
 
 
 ---
-
-## **2️⃣ Commitando tudo junto**
-
-No terminal, estando na raiz do projeto:
-
-```bash
-git add .
-git commit -m "Automação QA Jr – testes de certificação (cenários 1, 4, 7 e 8) + README"
-git push origin main
