@@ -8,8 +8,8 @@ Automação da página de certificação e testes manuais do site [Rubeus](https
 
 teste-tecnico-qa-rubeus/
 ├─ cypress/
-│  ├─ e2e/
-│  │  └─ certificacao.cy.js
+│ ├─ e2e/
+│ │ └─ certificacao.cy.js
 ├─ cypress.config.js
 ├─ package.json
 └─ README.md
